@@ -9,17 +9,16 @@
 
 ## โครงสร้าง
 ```
-assignment/
-├── yolo_assignment.ipynb   เตรียมข้อมูล → เทรน → ผลการเทรน → test → predict → export
-├── yolo_app.ipynb          โปรแกรม tkinter เลือกรูปแล้วทาย
-└── runs/
-    ├── rectangle/          ผลการเทรน + weights/best.pt
-    ├── polygon/            ผลการเทรน + weights/best.pt
-    ├── rectangle_test/     ผลบน test set
-    ├── polygon_test/       ผลบน test set
-    ├── predict_rectangle/  ผล predict
-    └── predict_polygon/    ผล predict
-web/                        เว็บแอปทายภาพด้วย Polygon model (onnxruntime-web, client-side)
+yolo_assignment.ipynb   เตรียมข้อมูล → เทรน → ผลการเทรน → test → predict → export
+yolo_app.ipynb          โปรแกรม tkinter เลือกรูปแล้วทาย
+runs/
+├── rectangle/          ผลการเทรน + weights/best.pt
+├── polygon/            ผลการเทรน + weights/best.pt
+├── rectangle_test/     ผลบน test set
+├── polygon_test/       ผลบน test set
+├── predict_rectangle/  ผล predict
+└── predict_polygon/    ผล predict
+web/                    เว็บแอปทายภาพด้วย Polygon model (onnxruntime-web, client-side)
 ```
 
 ## ลิงก์
