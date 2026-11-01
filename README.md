@@ -11,13 +11,12 @@
 ```
 yolo_assignment.ipynb   เตรียมข้อมูล → เทรน → ผลการเทรน → test → predict → export
 yolo_app.ipynb          โปรแกรม tkinter เลือกรูปแล้วทาย
-runs/
-├── rectangle/          ผลการเทรน + weights/best.pt
-├── polygon/            ผลการเทรน + weights/best.pt
-├── rectangle_test/     ผลบน test set
-├── polygon_test/       ผลบน test set
-├── predict_rectangle/  ผล predict
-└── predict_polygon/    ผล predict
+rectangle/              ผลการเทรน Rectangle + weights/best.pt
+polygon/                ผลการเทรน Polygon + weights/best.pt
+rectangle_test/         ผลบน test set (Rectangle)
+polygon_test/           ผลบน test set (Polygon)
+predict_rectangle/      ผล predict (Rectangle)
+predict_polygon/        ผล predict (Polygon)
 web/                    เว็บแอปทายภาพด้วย Polygon model (onnxruntime-web, client-side)
 ```
 
